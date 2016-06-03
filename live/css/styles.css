@@ -1,0 +1,314 @@
+/*****************************************************************
+*    General
+*****************************************************************/
+
+body {
+  color: #646067;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+  display: inline;
+
+}
+
+li a {
+  list-style: none;
+  display: inline-block;
+  background-color: inherit;
+  margin-top: -20px;
+  margin-right:10px;
+  color: #646067;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a {
+  list-style: none;
+  display: inline-block;
+  background-color: inherit;
+  margin-top: -20px;
+  margin-right:10px;
+  color: #646067;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition-duration:2s;
+  text-shadow: 1px 1px #fff;
+}
+
+a:hover {
+  color: #fffd71;
+  text-shadow: 1px 1px #646067;
+}
+
+/*temporary remove when fully updated content*/
+li {
+  list-style: none;
+  display: inline-block;
+  background-color: inherit;
+  margin-top: 40px;
+  margin-right:10px;
+  color: #646067;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#container {
+  margin:auto;
+  width: 100%;
+  height: auto;
+}
+
+/*****************************************************************
+*    Header/Nav
+*****************************************************************/
+
+#header {
+  display: block;
+}
+
+#logo {
+  display: inline-block;
+}
+
+
+h1 a{
+  display: inline-block;
+  color: #646067;
+  font-family: 'Courgette', cursive;
+  font-size: 1.2em;
+  margin-left:10px;
+  text-decoration: none;
+  transition-duration: 2s;
+  text-shadow: 1px 1px #fff;
+}
+
+h1 a:hover{
+  color: #f7f571;
+  text-shadow: 1px 1px #646067;
+}
+
+
+#nav {
+  display: block;
+  float: right;
+}
+
+#nav-spacer {
+  display: inline-block;
+}
+
+.selected {
+  font-size: 1.1em;
+  font-weight:bold;
+}
+
+/*****************************************************************
+*    Content Div
+*****************************************************************/
+
+#content {
+  margin: auto;
+  width:50%;
+}
+
+
+#content :hover {
+  opacity: 1;
+}
+
+#content img {
+  margin: auto;
+  max-width: 600px;
+  margin-top:20px;
+  margin-bottom:20px;
+  box-shadow: 2px 2px 10px;
+  position: relative;
+}
+img {
+  margin: auto;
+}
+
+#content h1 {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  font-family: 'Courgette', cursive;
+  font-size: 5em;
+  opacity: 0;
+  transition-duration: 2s;
+  padding: 100px;
+}
+
+/*****************************************************************
+*    Footer
+*****************************************************************/
+
+#footer {
+  margin: auto;
+  padding: 20px;
+  display:flex;
+  align-items: center;
+}
+
+#footer div {
+}
+
+#footer img{
+  opacity: .5;
+  width:25px;
+  transition-duration: 2s;
+}
+
+#footer img:hover {
+  opacity: 0.1;
+}
+
+#footer div {
+    display:inline-block;
+    margin:auto;
+}
+
+.footer-space {
+  flex-grow:5;
+}
+
+
+/*****************************************************************
+*    PORTFOLIO PAGE / Flexbox Cards
+*****************************************************************/
+
+.projects {
+  width: 750px;
+  margin:10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -100px;
+  margin-top: 50px
+}
+
+.card {
+  display:inline-block;
+  flex-basis: 49%;
+  height: 60%;
+  background-color: white;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+
+.landscape {
+  width:100%;
+  height:auto;
+  background-color: orchid;
+}
+
+.portrait {
+  width:20%;
+  height:auto;
+  background-color:steelblue;
+  float: left;
+  margin-right: 10px;
+  margin-left: 200px;
+}
+
+.landscape-text {
+  margin: 2px;
+  font-size: 0.8em;
+}
+
+.portrait-text {
+  position: relative;
+  margin:20px;
+  padding-left:3px;
+  font-size: 0.8em;
+}
+
+ h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+/*****************************************************************
+*    RESUME PAGE
+*****************************************************************/
+
+td {
+  min-width: 10px;
+  padding: 2px;
+}
+
+table {
+  min-width: 780px;
+  font-family: 'PT Sans', sans-serif;
+  color: #646067;
+  font-size: 0.8em;
+  margin-left:-100px;
+  background-color: #FFFFF5;
+  box-shadow: 1px 1px 8px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-radius: 5px;
+}
+
+tr {
+  padding:5px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.date {
+  min-width:100px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.resume-section {
+  font-size:1.5em;
+}
+
+
+/*****************************************************************
+*    ABOUT PAGE
+*****************************************************************/
+
+#about {
+  display:flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#about img {
+  border-radius: 10%;
+  box-shadow: 1px 1px 8px;
+}
+
+section {
+  position:relative;
+  margin-left:1px;
+  padding:10px;
+  color: #646067;
+  font-family: 'PT Sans', sans-serif;
+  width:40%;
+}
+
+/*****************************************************************
+*    CONTACT PAGE
+*****************************************************************/
+#contact {
+  display: block;
+  font-size: 1.2em;
+  margin: auto;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
