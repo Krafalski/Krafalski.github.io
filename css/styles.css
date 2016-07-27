@@ -203,13 +203,13 @@ img {
 .landscape {
   width:100%;
   height:auto;
-  background-color: orchid;
+  background-color: ivory;
 }
 
 .portrait {
   width:20%;
   height:auto;
-  background-color:steelblue;
+  background-color:ghostwhite;
   float: left;
   margin-right: 10px;
   margin-left: 200px;
