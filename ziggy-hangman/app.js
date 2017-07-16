@@ -1,13 +1,7 @@
-// var words = ['aabaa','space', 'oddity', 'sold','world', 'changes',
-// 'life', 'mars', 'daydream', 'suffragette', 'city', 'young', 'dudes','americans',
-// 'rebel', 'diamond','dogs','fame', 'golden', 'years','sound','vision','heroes',
-// 'ashes','fashion', 'scary', 'monsters', 'under', 'pressure', 'dance', 'girl',
-// 'modern', 'love','jean','dancing','streets', 'absolute', 'beginners','time', 'jump',
-// 'swinging','station','sense','doubt'];
-
 const words = [ 'Is there life on Mars?',
 "Ashes to Ashes" , "Dust to Dust", "Bully for you Chilly for me", "Boys keep swinging", "They'll Never Clone Ya", "We are the goon squad and we're coming to town! Beep beep!", "Dance with me" , "Blue Jean" , "Rebel Rebel", "Diamond Dogs", "Golden Years", "Absolute Beginners", " Sound and Vision", "Heroes", "Scary Monsters and Super Creeps", "Suffragette City", "Space Oddity" , "The Man Who Sold the World", "Can you hear me, Major Tom?" , "Fame" , "Changes" , "Under Pressure" , "Ground Control", "Dancing in the Streets", "Modern Love", "Jump they Say"];
   const wrongLetters = [];
+  let play;
 
 $(()=>{
 
@@ -16,7 +10,6 @@ $(()=>{
     if (e.key.match(re)){
       //loop through to remove letter cards
       const letterCards = $('.card');
-
 
       letterCards.each((c)=>{
 
@@ -35,6 +28,7 @@ $(()=>{
         if ($('.remaining-stars').children().length === 0){
           $('.card').off( );
           alert('game over');
+          return;
         }
         $('.remaining-stars').children().last().addClass('fadeOut').delay(2000).hide(1, function () {
           $(this).remove();
@@ -77,15 +71,29 @@ $(()=>{
           wrongLetters.push (chosenLetter);
           if ($('.remaining-stars').children().length === 0){
               $('.card').off( );
+              play.letters.forEach((l)=>{
+                l.show();
+              })
+              play.render();
             alert('game over');
+            const $newDiv = $('<div>').addClass('play-again').text('Play Again?').on('click' , (e)=>{
+              e.target.remove();
+              $('.remaining-stars').children().remove();
+              $('.guess-word').children().remove();
+              $('.letters').children().remove();
+              startGame();
+            });
+            console.log($newDiv);
+            $('.guessed-stars').append($newDiv)
+
           }
-          $('.remaining-stars').children().last().addClass('fadeOut').delay(2000).hide(1, function () {
+          $('.remaining-stars').children().last().addClass('fadeOut').delay(1000).hide(1, function () {
             $(this).remove();
           });
         } else {
-          // do nothing
+              play.isOver();
         }
-        play.isOver();
+
         $( e.target ).remove();
       });
 
@@ -96,7 +104,7 @@ $(()=>{
 
   const startStars = () => {
     const $startStarBox = $( '.remaining-stars');
-    for (let i = 0; i < 9; i++){
+    for (let i = 0; i < 2; i++){
       let $starDiv = $('<div>').addClass('star');
       let $starImg = $('<img>').attr('src', './images/Star.png');
       $starDiv.append($starImg);
@@ -190,15 +198,17 @@ $(()=>{
 
   }
 
+const startGame = () => {
+  letters();
+  startStars();
 
-letters();
-startStars();
+  play = new Word ();
+  play.getLetters(chooseWord());
+  //first time render to display at start of game
+  play.render();
+}
 
-const play = new Word ();
-play.getLetters(chooseWord());
-//first time render to display at start of game
-play.render();
-
+startGame();
 
 
 
