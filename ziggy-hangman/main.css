@@ -19,7 +19,7 @@
  display: flex;
  justify-content: space-between;;
 /*background: url("http://www.proctors.org/sites/default/files/ziggystardust_webheader_0.jpg") no-repeat center center fixed;*/
-min-height: 400px;
+min-height: 200px;
 postion: relative;
 }
 h1 {
@@ -107,6 +107,7 @@ body {
   flex-basis: 1em;
   display: inline;
   font-family: 'seven-monkey-fury';
+  font-size: 1.5em;
   text-align: center;
 
 }

@@ -6,7 +6,7 @@
 // 'swinging','station','sense','doubt'];
 
 const words = [ 'Is there life on Mars?',
-"Ashes to Ashes" , "Dust to Dust", "Bully for you Chilly for me", "Boys keep swinging", "They'll Never Clone Ya", "We are the goon squad and we're coming to town! Beep beep!", "Dance with me" , "Blue Jean" , "Rebel Rebel", "Diamond Dogs", "Golden Years", "Absolute Beginners", " Sound and Vision", "Heroes", "Scary Monsters and Super Creeps", "Suffragette City", "Space Oddity" , "The Man Who Sold the World"];
+"Ashes to Ashes" , "Dust to Dust", "Bully for you Chilly for me", "Boys keep swinging", "They'll Never Clone Ya", "We are the goon squad and we're coming to town! Beep beep!", "Dance with me" , "Blue Jean" , "Rebel Rebel", "Diamond Dogs", "Golden Years", "Absolute Beginners", " Sound and Vision", "Heroes", "Scary Monsters and Super Creeps", "Suffragette City", "Space Oddity" , "The Man Who Sold the World", "Can you hear me, Major Tom?" , "Fame" , "Changes" , "Under Pressure" , "Ground Control", "Dancing in the Streets", "Modern Love", "Jump they Say"];
   const wrongLetters = [];
 
 $(()=>{
