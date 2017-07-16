@@ -104,7 +104,7 @@ $(()=>{
 
   const startStars = () => {
     const $startStarBox = $( '.remaining-stars');
-    for (let i = 0; i < 2; i++){
+    for (let i = 0; i < 6; i++){
       let $starDiv = $('<div>').addClass('star');
       let $starImg = $('<img>').attr('src', './images/Star.png');
       $starDiv.append($starImg);
