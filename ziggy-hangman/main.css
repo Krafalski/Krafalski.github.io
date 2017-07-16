@@ -64,6 +64,7 @@ body {
 }
 
 .guess-word {
+  margin-top: 1.5em;
   height: 60%;
   align-self: flex-start;
   width: 100%;
@@ -89,7 +90,7 @@ body {
 .letter-card {
   font-family: 'night-club';
   /*border: 1px solid black;*/
-  font-size: 1.5em;
+  font-size: 2em;
   /*margin: .01em;*/
   flex-basis: 1em;
   padding: .01em;
