@@ -37,7 +37,7 @@ $(()=>{
       if (!pushIt){
         wrongLetters.push (chosenLetter);
 
-        if ($('.remaining-stars').children().length === 0){
+        if ($('.remaining-stars').children().length === 1){
           $('.card').off( );
           $('.lose').fadeIn('slow');
           return;
@@ -114,6 +114,7 @@ $(()=>{
 
   const startStars = () => {
     const $startStarBox = $( '.remaining-stars');
+    $startStarBox.children.remove();
     for (let i = 0; i < 6; i++){
       let $starDiv = $('<div>').addClass('star');
       let $starImg = $('<img>').attr('src', './images/Star.png');
@@ -215,6 +216,7 @@ $(()=>{
   }
 
 const startGame = () => {
+
   letters();
   startStars();
 
