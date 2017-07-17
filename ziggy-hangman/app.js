@@ -113,8 +113,8 @@ $(()=>{
   }
 
   const startStars = () => {
-    const $startStarBox = $( '.remaining-stars');
-    $startStarBox.children.remove();
+    const $startStarBox = $( '.remaining-stars' );
+    $startStarBox.children().remove();
     for (let i = 0; i < 6; i++){
       let $starDiv = $('<div>').addClass('star');
       let $starImg = $('<img>').attr('src', './images/Star.png');
