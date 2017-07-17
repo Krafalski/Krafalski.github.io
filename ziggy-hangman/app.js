@@ -59,7 +59,7 @@ $(()=>{
 
     //select container to add cards
     const $letters = $( '.letters' );
-
+    $letters.children().remove();
     //determine number of cards already in container
     let numberOfCards = 0;
     let test = 0
