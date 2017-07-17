@@ -5,6 +5,18 @@ const words = [ 'Is there life on Mars?',
 
 $(()=>{
 
+  $('.welcome').on('click', ()=>{
+    $('.welcome').fadeOut('slow');
+  });
+  $('.lose').on('click', ()=> {
+    $('.lose').fadeOut('slow');
+    startGame();
+  });
+  $('.win').on('click', ()=> {
+    $('.win').fadeOut('slow');
+    startGame();
+  });
+
   $('html').on('keyup', (e)=> {
     const re = new RegExp('[a-zA-Z]');
     if (e.key.match(re)){
@@ -27,7 +39,7 @@ $(()=>{
 
         if ($('.remaining-stars').children().length === 0){
           $('.card').off( );
-          alert('game over');
+          $('.lose').fadeIn('slow');
           return;
         }
         $('.remaining-stars').children().last().addClass('fadeOut').delay(2000).hide(1, function () {
@@ -75,14 +87,12 @@ $(()=>{
                 l.show();
               })
               play.render();
-            alert('game over');
-            const $newDiv = $('<div>').addClass('play-again').text('Play Again?').on('click' , (e)=>{
-              e.target.remove();
-              $('.remaining-stars').children().remove();
-              $('.guess-word').children().remove();
-              $('.letters').children().remove();
+
+            $('.lose').on('click', ()=> {
+              $('.lose').fadeOut('slow');
               startGame();
             });
+
             console.log($newDiv);
             $('.guessed-stars').append($newDiv)
 
@@ -146,11 +156,16 @@ $(()=>{
       } );
       }
     isOver (){
+
       const status = this.letters.every ( ( l )=> {
+        console.log(l);
+        console.log(!l.hidden , l.value);
         return !l.hidden;
       } )
+      console.log('%cstatus', 'color: green', status);
       if (status){
-        alert ('you won!');
+        $('.win').fadeIn('slow');
+
       }
     }
 
@@ -159,26 +174,27 @@ $(()=>{
 
       const $guessIt = $('.guess-word');
       $guessIt.children().remove()
-
+      let expression = '';
+      const $h2 = $('<h2>').addClass('letter-card');
       this.letters.forEach( ( l ) => {
-        // console.log(l);
-        const $letterDiv = $('<div>').addClass('letter-card');
+
         if (l.value === ' ') {
-          //put letters in a div
+          expression += ' ' ;
+          l.show();
         }
         else if ( l.hidden && l.value.match(re) ){
-          $letterDiv.text( '_' );
+          expression += '_' ;
         }  else if (!l.value.match(re) ){
 
-          $letterDiv.text( l.value );
+          expression += l.value;
           l.show();
         } else        {
-          $letterDiv.text( l.value );
+          expression += l.value ;
         }
+        $h2.text(expression);
+        $guessIt.append($h2);
 
-        $guessIt.append($letterDiv);
-
-      })
+      });
     }
   }
 

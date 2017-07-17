@@ -93,10 +93,10 @@ body {
   /*border: 1px solid black;*/
   font-size: 2em;
   /*margin: .01em;*/
-  flex-basis: 1em;
+
   padding: .01em;
   text-align: center;
-
+  letter-spacing: .2em;
 }
 
 .found-letter {
@@ -233,4 +233,32 @@ body {
     transform: scale(1);
     animation-timing-function: ease-out;
   }
+}
+
+img {
+  width: 100%;
+}
+
+.modal {
+  background-color: rgba( 0, 0, 0, 0.4);
+  position: fixed;
+  top: 5em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+
+}
+
+.welcome {
+    /*display: none;*/
+}
+
+.lose {
+    display: none;
+}
+
+.win {
+    display: none;
 }
