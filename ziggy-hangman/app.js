@@ -56,31 +56,9 @@ $(()=>{
           letterCards.eq( c ).remove();
         }
       });
-      //do nothing if an already played letter is pressed
-      //no coded needed for this functionality
 
-      //check the letter
-      play.isFound( chosenLetter );
-      //render the board
-      play.render();
-      //push the letter into an array of played letters
-      const pushIt = play.test( chosenLetter );
-      if ( !pushIt ){
-        wrongLetters.push (chosenLetter);
+      checkPlay( chosenLetter );
 
-        if ( $( '.remaining-stars' ).children().length === 1 ){
-          $( '.card' ).off();
-          $( '.lose' ).fadeIn( 'slow' );
-          return;
-        }
-        $( '.remaining-stars' ).children().last().addClass( 'fadeOut' ).delay( 1000 ).hide( 1, function () {
-          $( this ).remove();
-        });
-        console.log( 'star falling' );
-
-      } else { //do nothing
-      }
-      play.isOver();
     } //closes if valid key, nothing happens if key is invalid
   });
 
@@ -109,35 +87,7 @@ const letters = () => {
     //add an event listner/handler that toggles the class selected for the card that is clicked
     $card.on( 'click', ( e ) => {
       const chosenLetter = $( e.target ).text();
-      play.isFound( chosenLetter );
-      play.render();
-      play.isOver();
-      const pushIt = play.test( chosenLetter );
-      if ( !pushIt ){
-        wrongLetters.push ( chosenLetter );
-        if ($( '.remaining-stars' ).children().length === 0){
-            $( '.card' ).off();
-            play.letters.forEach( ( l) => {
-              l.show();
-            });
-
-            play.render();
-            play.isOver();
-
-          $( '.lose' ).on( 'click', () => {
-            $( '.lose' ).fadeOut( 'slow' );
-            startGame();
-          });
-
-
-        }
-        $( '.remaining-stars' ).children().last().addClass( 'fadeOut' ).delay( 1000 ).hide( 1, function () {
-          $( this ).remove();
-        });
-      } else {
-          play.isOver();
-      }
-
+      checkPlay( chosenLetter );
       $( e.target ).remove();
     });
 
@@ -261,4 +211,38 @@ const startGame = () => {
   play.getLetters(chooseWord());
   //first time render to display at start of game
   play.render();
+}
+
+const checkPlay = ( chosenLetter ) => {
+  play.isFound( chosenLetter );
+  play.render();
+  play.isOver();
+  const pushIt = play.test( chosenLetter );
+  if ( !pushIt ){
+    wrongLetters.push ( chosenLetter );
+    if ($( '.remaining-stars' ).children().length === 0){
+
+      console.log('in here');
+        play.render();
+        play.isOver();
+
+        $( '.card' ).off();
+        play.letters.forEach( ( l ) => {
+          l.show();
+        });
+        console.log('made it');
+        $('.lose').fadeIn();
+      $( '.lose' ).on( 'click', () => {
+        $( '.lose' ).fadeOut( 'slow' );
+        startGame();
+      });
+
+
+    }
+    $( '.remaining-stars' ).children().last().addClass( 'fadeOut' ).delay( 1000 ).hide( 1, function () {
+      $( this ).remove();
+    });
+  } else {
+      play.isOver();
+  }
 }
