@@ -78,6 +78,7 @@ $(()=>{
         const chosenLetter = $( e.target ).text();
         play.isFound(chosenLetter);
         play.render();
+        play.isOver();
         const pushIt = play.test( chosenLetter );
         if (!pushIt){
           wrongLetters.push (chosenLetter);
@@ -85,16 +86,16 @@ $(()=>{
               $('.card').off( );
               play.letters.forEach((l)=>{
                 l.show();
-              })
+              });
+
               play.render();
+              play.isOver();
 
             $('.lose').on('click', ()=> {
               $('.lose').fadeOut('slow');
               startGame();
             });
 
-            console.log($newDiv);
-            $('.guessed-stars').append($newDiv)
 
           }
           $('.remaining-stars').children().last().addClass('fadeOut').delay(1000).hide(1, function () {
