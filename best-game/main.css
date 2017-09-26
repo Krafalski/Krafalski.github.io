@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'pentagon';
+  src: url('./assets/fonts/pentagon/Pentagon.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'actionis';
+  src: url('./assets/fonts/actionis/actionis.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'baby-kruffy';
+  src: url('./assets/fonts/baby-kruffy/BABYK.TTF') format("truetype");
+}
+
+
+
+@font-face {
+  font-family: 'action-jackson';
+  src: url('./assets/fonts/action-jackson/actionj.ttf') format("truetype");
+}
+
+body {
+  background: #3C7484;
+  color: white;
+  font-family: 'actionis';
+  letter-spacing: 4px;
+  font-size: 3.5vmax;
+  text-align: center;
+}
+
+h1  {
+  font-family: 'baby-kruffy';
+}
+
+h2 {
+  color: #223236;
+}
+
+button {
+    font-family: 'action-jackson';
+    font-size: 3vmax;
+    padding: 1em;
+}
+
+.win-it {
+  background: #DFAFA6;
+  color: #223236;
+}
+
+.lose-it {
+  background: #223236;
+  color: #93A4AD;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+
+/****************************************************
+* Modals
+****************************************************/
+
+.modal {
+  background-color: rgba( 0, 0, 0, 0.4);
+  position: fixed;
+  top: 5em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: auto;
+
+}
+
+.welcome {
+    /*display: none;*/
+}
+
+.welcome h2 {
+  position: fixed;
+  top: 5em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  text-shadow: 2px 2px 4px white;
+}
+
+.lose {
+    display: none;
+}
+
+.win {
+    display: none;
+}
+
+img {
+  width: 100%;
+}
