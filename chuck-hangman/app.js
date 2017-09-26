@@ -160,7 +160,7 @@ class Word {
     // if every letter is not hidden - show win state
     //lose state is in
     if ( status ) {
-      $( '.win' ).fadeIn( 'slow' );
+      $( '.win' ).fadeIn( 6000 );   
       $( '.win' ).on( 'click', () => {
         $( '.win' ).fadeOut( 'slow' );
         startGame();
