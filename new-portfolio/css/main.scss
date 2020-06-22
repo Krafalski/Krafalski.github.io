@@ -1,0 +1,38 @@
+// fonts
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Gruppo|Katibeh|Limelight|Nova+Slim|Pompiere|Sail|Sirin+Stencil|Spirax');
+
+
+// colors
+//Palette picker : http://colormind.io/bootstrap/
+$base         : #F2F3E9;
+$stone        : #AAAAA7;
+$snowbird     : #E4EBED;
+$evening-cloud: #8493A8;
+$winter-shadow: #646D79;
+
+
+
+body {
+ background: $snowbird;
+ color: $stone;
+  font-family: 'Limelight', cursive;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Spirax', cursive;
+  font-family: 'Pompiere', cursive;
+  font-family: 'Gruppo', cursive;
+  font-family: 'Nova Slim', cursive;
+  font-family: 'Katibeh', cursive;
+  font-family: 'Sail', cursive;
+  font-family: 'Sirin Stencil', cursive;
+}
+
+h1 {
+  font-family: 'Limelight', cursive;
+  font-size: 2em;
+}
