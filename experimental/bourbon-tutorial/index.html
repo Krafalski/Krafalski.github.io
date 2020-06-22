@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bourbon Tutorial</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="scroll-on-page">
+        <aside id="scroll-on-page-top">
+          <a class="scroll-on-page-link" href="#scroll-link-1">Introduction </a>
+          <a class="scroll-on-page-link" href="#scroll-link-2">Preparation</a>
+          <a class="scroll-on-page-link" href="#scroll-link-3">Configure Sass</a>
+          <a class="scroll-on-page-link" href="#scroll-link-4">Grab Bourbon</a>
+          <a class="scroll-on-page-link" href="#scroll-link-5">Make it Neat</a>
+          <a class="scroll-on-page-link" href="#scroll-link-6">Add Bitters</a>
+          <a class="scroll-on-page-link" href="#scroll-link-7">Get Refills</a>
+          <a class="scroll-on-page-link" href="#scroll-link-8">Enjoy Empties</a>
+        </aside>
+        <article>
+          <section>
+            <h4 id="scroll-link-1">Getting started with Bourbon (without Rails)</h4>
+            <br>
+            Hello there! Have you been looking for a walktrhough style tutorial for Bourbon? This tutorial will walk you through the steps you need to have all the Bourbon tools with a little bit of boiler plate/starter code.
+            Most of the tutorials I found for Bourbon were tied to Rails. This tutorial is for use of Bourbon wihtout Rails.
+
+            <br>
+
+            Bourbon is a front-end/css framework that will help you with vendor prefixes(write css without having to write -webkit... for crossbrowser compatability), make responsive grid layout for your components, give your elements a modern and cohesive apperance that can be easily changed, and common modern components and patterns (like accordian/tabs, cards, hero unit, dropdown menus and much more).
+
+            <br>
+
+            Bourbon is focused on being lightweight and is thus broken up into 5 components and requires a little configuration out of the box.
+
+            <br>
+
+            Prerequisites:
+            <ul>
+              <li>A fundamental understanding of html</li>
+              <li>A fundamental understanding of css</li>
+              <li>Basic ability to use terminal/command-line</li>
+              <li>Programming basics (know the following terms: function, variable, string),
+              for refills/empties a basic knowledge of jQuery is also a prerequisite</li>
+            </ul>
+
+            <br>
+            
+            Quick overview:
+          Bourbon eponymous - Bourbon provides vendor prefixes where they are needed. Bourbon had more features, but they have been whittling them down and moving them to other parts. It is also required for bitters, refills and empties
+          <br>
+          Neat - doesn't require Bourbon. it is a semantic grid framework.  The great thing about this grid framework is that it puts the grid into the css rules and not into classes(compare to bootstrap). This lets you keep your classes and ids relevant to your content, and lets the scss handle the appearnace. Does this make total sense? YES- To me it does. No cluttering up the html with class names that represent what the css looks like.
+          <br>
+          Bitters requires Bourbon . Bitters loads a number styles for html elements, immediately giving a modern look to your html. Because of its minimalist nature, it is designed for you to build up your custom styles on top of it.
+          <br>
+          Refills & Empties
+          Requires Sass, Bourbon & Neat (and sometimes jQuery -depending on the component). Once you have installed those, you go to Refills or Empties and copy paste the code of the component you want into your own code. WAT. No, but really. And it's awesome. Take what you need, no less and no more philosophy. Lightweight, and totally customizable, you get awesome tools and total control.
+          <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+        </section>
+        <section>
+          <h4 id="scroll-link-2">Preparation</h4>
+          <p> In the next parts I am going to walk you through the steps to set up and quickly confirm that you have set up your code correctly. You can either use it to start your own project, or I may develop a little project to continue to work through, if you are the kind of person that learns by doing projects</p>
+          <ol>
+            <li>Create a new directory</li>
+            <li>In that dirtory make 2 more directories: css, js</li>
+            <li>make file called index.html</li>
+            <li>inside the css directory, create main.scss</li>
+            <li>inside the js directory, create app.js</li>
+            <li>open the project in your favorite editor (I use atom)</li>
+            <li>Do it in code:
+              <!-- fold open? -->
+              <pre><code>
+                mkdir bourbon-project
+                cd bourbon-project
+                mkdir css
+                mkdir js
+                touch index.html
+                touch css/main.scss
+                touch js/app.js
+                atom .
+              </pre></code>
+            </li>
+            <li>if you are using atom, don't forget you can type html and then press tab and the       boilerplate html will show up</li>
+            <!-- //fold open boilerplate? -->
+            <li>in your js file, write an alert <pre><code>alert('js linked');  </pre></code></li>
+            <li>right above your body tag, include a script tag linking to your js tag
+              <pre><code>  <script src="./js/app.js"></script>  </pre></code>
+            </li>
+            <li>open index.html in the browser</li>
+            <li>check the alert, if it works, go into app.js and delete the alert</li>
+            <li>if it doesn't work, check your routes, get them working and then delete that alert! It'll get annoying if you don't</li>
+          </ol>
+          <p> all of the above should have been familiar, if you had the suggested pre-reqs</p>
+            <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+        </section>
+        <section>
+          <h4 id="scroll-link-3">Configure Sass</h4>
+          <ol>
+            <li><a href="http://sass-lang.com/install" id="outer-link">Install Sass</a>, if you have not already</li>
+            <li>Not sure if you have Sass? Check by running<pre><code> sass -v </pre></code></li>
+            <li>Open a new tab in your terminal (with settings/current location- which should be the route of your bourbon-project)</li>
+            <li><pre><code> sass --watch css/main.scss </pre></code></li>
+            <li>The above command will create the files css/main.css and css/main.css.map additionally, it will listen for changes to the main.scss file, so you should keep this tab open and have this script running when you are working on your main.scss file</li>
+            <ol> <h4> Write your first Sass</h4>
+              <li>in main.scss
+                <pre><code>
+                  $favorite-color:#265b6a;
+
+                  body{
+                    background-color: $favorite-color;
+                  }
+                  </pre></code>
+              </li>
+              <li>don't forget to save your file</li>
+              <li>check that your Sass was compiled into your main.css file - it should look like
+                <pre><code>
+      body {
+        background-color: #265b6a; }
+
+      /*# sourceMappingURL=main.css.map */
+        </pre></code>
+              </li>
+              <li>link the main.css stylesheet in your index.html<code><link rel="stylesheet" href="./css/main.css"> </code></li>
+              <li>make sure all your files are saved</li>
+              <li>check out your index.html in your browser. The background should now be your favorete color!</li>
+              <li>This barely begins to demonstrate the amazingness of Sass! But we must press onwards because this tutorial is for Bourbon!</li>
+            </ol>
+            <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+          </section>
+          <section>
+        <h4 id="scroll-link-4">Grab Bourbon</h4>
+        <ol> Install bourbon
+          <li>be sure you are in the css folder of your project</li>
+          <li><pre>gem install bourbon</pre></li>
+          <li><pre>bourbon install</pre> in your css directory for the project</li>
+          <li> you should now see a new directory in your css directory called 'bourbon'</li>
+          <li> install bourbon into stylsheets by typing <pre> @import "bourbon/bourbon";</pre> at the top of the stylesheet</li>
+          <li> also <pre> bourbon help</pre> and <pre> bourbon update</pre></li>
+          <li>main.css should not have changed</li>
+          <li>Check if bourbon is installed properly- update main.scss to match this <pre><code>
+            @import "bourbon/_bourbon.scss";
+
+        $favorite-color:#265b6a;
+        $text-color: black;
+
+        body{
+          background-color: $favorite-color;
+          color: tint($text-color,75%);
+
+        }
+      </code></pre> to the body element in your main.scss<br>
+      now your main.css should be <pre><code>
+        body {
+          background-color: #265b6a;
+          color: #bfbfbf; }
+        </code></pre>
+    </li>
+    </ol>
+    <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+      </section>
+      <section>
+        <h4 id="scroll-link-5">Make it Neat</h4>
+
+
+  <ol>Install Neat
+    <li>be sure you are in the css folder of your project</li>
+    <li><pre>gem install neat</pre></li>
+    <li><pre>gem update sass</pre></li>
+    <li><pre>neat install</pre> in your css directory for the project</li>
+    <li> you should now see a new directory in your css directory called 'bourbon'</li>
+    <li> install bourbon into stylsheets by typing <pre> @import "neat/neat";</pre> at the top of the stylesheet</li>
+    <li>if all went well, your main.css file should now look like this:
+<pre><code>
+  html {
+    box-sizing: border-box; }
+
+  *, *::after, *::before {
+    box-sizing: inherit; }
+
+  body {
+    background-color: #265b6a;
+    color: #bfbfbf; }
+
+  /*# sourceMappingURL=main.css.map */
+</code></pre>
+    </li>
+    <li></li>
+    <li></li>
+  </ol>
+  <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+  </section>
+  <section>
+    <h4 id="scroll-link-6">Add Bitters</h4>
+  <ol> Install Bitters
+    <li>in your css directory </li>
+    <li>Download and install <a href="http://necolas.github.io/normalize.css/">normalize.css </a> </li>
+    <li>Add normalize.css to your index.html <strong> before</strong> your main.css</li>
+    <li><pre>gem install bitters</pre></li>
+    <li><pre>bitters install</pre></li>
+    <li>add bitters to main.scss</li>
+    <li><pre> @import "base/base";</pre> at the top of the stylesheet</li>
+    <li>This should generate a lot of css in your main.css file and when you reload index.html you should see the updated styles of your html</li>
+    <li></li>
+    A note on bitters, ....
+  </ol>
+  <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+</section>
+<section>
+  <h4 id="scroll-link-7">Get Refills</h4>
+  <ol> Refills are not installed
+    <li>Go to <a href="http://refills.bourbon.io">Refills</a></li>
+    <li>find the pattern, component or type system you want to incorporate into your web page</li>
+    <li>click show code, then you copy and paste each component, (html, scss and/or javascript). If the code will go in the respective files, the javascript will go in the app.js file we set up at the beginning of this tutorial. Note you will need to install jQuery, if your component has javascript code to copy </li>
+  </ol>
+  <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+</section>
+<section>
+  <h4 id="scroll-link-8">Get Refills</h4>
+  <ol> Empties are not installed
+    <li>Go to <a href="http://empties.bourbon.io">Empties</a></li>
+    <li>find the pattern, component or type system you want to incorporate into your web page</li>
+    <li>click show code, then you copy and paste each component, (html, scss and/or javascript). If the code will go in the respective files, the javascript will go in the app.js file we set up at the beginning of this tutorial. Note you will need to install jQuery, if your component has javascript code to copy </li>
+  </ol>
+
+      </ol>
+      <a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+    </section>
+<section>
+ Build something!
+ You are all set to build out your project.
+ Alternatively, I have a sample project to build out if you want to have more tutorial-project action
+
+<a class="scroll-on-page-link" href="#scroll-on-page-top">Back to top</a>
+</section>
+ <button>Peter Gabriel</button>
+
+
+ </article>
+</div>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
+
+<!-- grab scroll
+  <section>
+   <h4 id="scroll-link-1">First Target</h4>
+   <p></p>
+ </section>
+
+ end scroll -->

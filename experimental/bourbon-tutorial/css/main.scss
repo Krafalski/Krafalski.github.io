@@ -1,0 +1,103 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+
+$favorite-color:#265b6a;
+$text-color: black;
+
+body{
+  background-color: $favorite-color;
+  color: tint($text-color,75%);
+
+}
+
+
+
+
+
+// scroll on page
+.scroll-on-page {
+  $base-line-height: 1.5em !default;
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $dark-gray: #333 !default;
+  $large-screen: 53.75em !default;
+  $base-font-color: $dark-gray !default;
+
+  display: inline-block;
+
+  a {
+    color: burlywood; }
+  a:hover {
+    color: shade(burlywood, 20%);
+  }
+
+  aside {
+      @include media($large-screen) {
+      @include span-columns(4);
+    }
+
+  }
+
+  .scroll-on-page-link {
+    border-bottom: 1px solid transparentize($action-color, 0.8);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding: ($base-spacing / 2) 0;
+
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+  }
+
+  article {
+
+    h4 {
+      margin: 0 0 0.5em 0;
+      color: brown;
+      text-shadow:1px 1px maroon;
+    }
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+    }
+
+    section p:last-of-type {
+      margin-bottom: 2em;
+    }
+
+    @include media($large-screen) {
+      @include span-columns(8);
+    }
+  }
+}
+
+// Based on code by http://codepen.io/xmark/
+
+
+//wrapper aside main
+
+#wrapper {
+  position:relative;
+  width:90%;
+  margin: auto;
+  @include outer-container;
+  aside {
+    @include span-columns(3);
+  }
+  article{
+    @include span-columns(9);
+  }
+}
+
+
+#outer-link{
+  a {
+  color: cornflowerblue;
+}
+  // a:hover {
+  //   color: shade(cornflowerblue, 20%);
+  // }
+}
