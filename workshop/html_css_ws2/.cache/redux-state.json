@@ -1,0 +1,3066 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "08823159e16eebe57464527e301cb9c8",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c20cf71f6e6a97d59732870bd9a3710c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1bf21171318f59086be81f2968f1a64f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "99dd2181036c21e0876ad6d3e04015c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a8e27a30cbd779f3e7fc2a0cdbd79ec8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a8b81b18670a63162256d5f338673a53",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c955921ba6d6a030d202cc728e38d573",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "93133948-83ce-53bf-85c8-c8e6db0adcb0": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-source-filesystem",
+      "id": "93133948-83ce-53bf-85c8-c8e6db0adcb0",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons",
+        "name": "blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "93d107ce3840ea0b3b95f91330e6dce6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "986baf12-4106-5a62-accd-5da2adc93892": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-source-filesystem",
+      "id": "986baf12-4106-5a62-accd-5da2adc93892",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1ccf61ae36f75fc725d1e43730829354",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a2f32515-86c3-535d-b79c-20220f0cbb1b": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-transformer-remark",
+      "id": "a2f32515-86c3-535d-b79c-20220f0cbb1b",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.3",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-images",
+            "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+            "name": "gatsby-remark-images",
+            "version": "2.0.6",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.3",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8ecc3787435aee68ef4ebf9b1323d1b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a359a36-fef3-5c49-a0f9-45c24a5fd434": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-images",
+      "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+      "name": "gatsby-remark-images",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1d1f7a742f7ff60242f4f6583afef7c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "453e6397f3a28506d1ad8aabededadf9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "289aaaac310fc3c5d8aae1a00a1ee5eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d28ca2398328ba051a161ca72396bc04",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8b5db3edf5283dfdeb47c02065e44ec5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "dc42dd8c86c895872f6d7597779f58c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4dd6a287aa08c6e1c544329942ad1e89",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "624c196c-30dd-59e4-bcdd-a6f980c0396f": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-google-analytics",
+      "id": "624c196c-30dd-59e4-bcdd-a6f980c0396f",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "06b3cda9fc6ae81da973886c9b60f4d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "eda77d775b8e9827756b1879e724c3e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3e4c7984-37c8-5f66-b12e-7d1d534f9756": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-manifest",
+      "id": "3e4c7984-37c8-5f66-b12e-7d1d534f9756",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Blog",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "content/assets/thumb_GA_Cog_Large_red_RGB.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fd58fec5f7523198e4541d0248b3ef92",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2520018c9dcd604f5e2f860b7b8fe6ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "281cfa429f1e2ce96d6cd79fc796c5d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.7",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8e4b20991407898b914cf5056d89a0ee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "8df5aa2edba5e0c93d8640f8efd6b6e6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2",
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "A starter for a blog powered by Gatsby and Markdown",
+        "version": "0.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.111"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.4"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.3"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "11f0f6cf0f1bc19225d09f9b6c209e00",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80ca9d83-1fff-5530-b153-e8cca43987db": {
+      "resolve": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-page-creator",
+      "id": "80ca9d83-1fff-5530-b153-e8cca43987db",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2b05a2c999cd25260e871f0fb41b81c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Intro to Coding: HTML & CSS",
+        "author": "Karolin Rafalski",
+        "description": "Resources for General Assembly's Intro to Coding: HTML and CSS Workshop.",
+        "siteUrl": "https://gatsby-starter-blog-demo.netlify.com/",
+        "social": {
+          "twitter": ""
+        }
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-04T18:37:22.986Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "abd9a820ae023eba79eef0add35a1ecf",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9b87527e-2ba9-55da-a157-fc8330d3b1d3": {
+      "id": "9b87527e-2ba9-55da-a157-fc8330d3b1d3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a0a1b63d280295c8a25663b45f988f32",
+        "type": "Directory",
+        "description": "Directory \"content/lessons\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-02-04T18:29:47.532Z",
+      "accessTime": "2019-02-04T18:37:29.114Z",
+      "changeTime": "2019-02-04T18:37:20.368Z",
+      "birthTime": "2019-02-04T17:38:57.712Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content",
+      "base": "lessons",
+      "ext": "",
+      "name": "lessons",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779513,
+      "blocks": 0,
+      "atimeMs": 1549305449113.8428,
+      "mtimeMs": 1549304987532.1277,
+      "ctimeMs": 1549305440367.6038,
+      "birthtimeMs": 1549301937711.9055,
+      "atime": "2019-02-04T18:37:29.114Z",
+      "mtime": "2019-02-04T18:29:47.532Z",
+      "ctime": "2019-02-04T18:37:20.368Z",
+      "birthtime": "2019-02-04T17:38:57.712Z"
+    },
+    "f2d5087f-d59e-5b44-a14a-9c5ef3c68ad4": {
+      "id": "f2d5087f-d59e-5b44-a14a-9c5ef3c68ad4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "19ec7af8a4c857afaebe0c09982061fc",
+        "type": "Directory",
+        "description": "Directory \"content/lessons/intro-to-css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-css",
+      "relativePath": "intro-to-css",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-04T17:38:57.715Z",
+      "accessTime": "2019-02-04T18:37:29.116Z",
+      "changeTime": "2019-02-04T18:22:51.505Z",
+      "birthTime": "2019-02-04T17:38:57.715Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons",
+      "base": "intro-to-css",
+      "ext": "",
+      "name": "intro-to-css",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779519,
+      "blocks": 0,
+      "atimeMs": 1549305449116.247,
+      "mtimeMs": 1549301937715.3088,
+      "ctimeMs": 1549304571504.9666,
+      "birthtimeMs": 1549301937715.2249,
+      "atime": "2019-02-04T18:37:29.116Z",
+      "mtime": "2019-02-04T17:38:57.715Z",
+      "ctime": "2019-02-04T18:22:51.505Z",
+      "birthtime": "2019-02-04T17:38:57.715Z"
+    },
+    "49bf4d8f-b447-59c9-bdc8-4c701aa3ae90": {
+      "id": "49bf4d8f-b447-59c9-bdc8-4c701aa3ae90",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "426e832844a794be4000cfb33e225b09",
+        "type": "Directory",
+        "description": "Directory \"content/lessons/intro-to-html\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-html",
+      "relativePath": "intro-to-html",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-04T17:56:06.966Z",
+      "accessTime": "2019-02-04T18:37:29.116Z",
+      "changeTime": "2019-02-04T17:56:06.966Z",
+      "birthTime": "2019-02-04T17:38:57.712Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons",
+      "base": "intro-to-html",
+      "ext": "",
+      "name": "intro-to-html",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779514,
+      "blocks": 0,
+      "atimeMs": 1549305449116.2974,
+      "mtimeMs": 1549302966965.699,
+      "ctimeMs": 1549302966965.699,
+      "birthtimeMs": 1549301937711.9783,
+      "atime": "2019-02-04T18:37:29.116Z",
+      "mtime": "2019-02-04T17:56:06.966Z",
+      "ctime": "2019-02-04T17:56:06.966Z",
+      "birthtime": "2019-02-04T17:38:57.712Z"
+    },
+    "6fe627d0-0fe5-53f5-8a61-40ac3d655b1f": {
+      "id": "6fe627d0-0fe5-53f5-8a61-40ac3d655b1f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2be77b81b2fabb2d3106a1cf2329e5d5",
+        "type": "Directory",
+        "description": "Directory \"content/lessons/welcome\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/welcome",
+      "relativePath": "welcome",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-04T17:38:57.715Z",
+      "accessTime": "2019-02-04T18:37:29.116Z",
+      "changeTime": "2019-02-04T18:29:47.532Z",
+      "birthTime": "2019-02-04T17:38:57.715Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons",
+      "base": "welcome",
+      "ext": "",
+      "name": "welcome",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779517,
+      "blocks": 0,
+      "atimeMs": 1549305449116.3696,
+      "mtimeMs": 1549301937715.0283,
+      "ctimeMs": 1549304987532.1274,
+      "birthtimeMs": 1549301937714.9297,
+      "atime": "2019-02-04T18:37:29.116Z",
+      "mtime": "2019-02-04T17:38:57.715Z",
+      "ctime": "2019-02-04T18:29:47.532Z",
+      "birthtime": "2019-02-04T17:38:57.715Z"
+    },
+    "df1cfc21-298c-56e7-9f9d-9b2b4cfb5a78": {
+      "id": "df1cfc21-298c-56e7-9f9d-9b2b4cfb5a78",
+      "children": [
+        "e3e84cc2-17d8-596e-b261-4e1bd8f537d2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f07c211132b5f6fd11832739d1993cd7",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/lessons/intro-to-css/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-css/index.md",
+      "relativePath": "intro-to-css/index.md",
+      "extension": "md",
+      "size": 2959,
+      "prettySize": "2.96 kB",
+      "modifiedTime": "2019-02-04T18:24:22.544Z",
+      "accessTime": "2019-02-04T18:37:20.379Z",
+      "changeTime": "2019-02-04T18:24:22.544Z",
+      "birthTime": "2019-02-04T17:38:57.715Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-css",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "intro-to-css",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779520,
+      "blocks": 8,
+      "atimeMs": 1549305440378.9944,
+      "mtimeMs": 1549304662544.0115,
+      "ctimeMs": 1549304662544.0115,
+      "birthtimeMs": 1549301937715.3013,
+      "atime": "2019-02-04T18:37:20.379Z",
+      "mtime": "2019-02-04T18:24:22.544Z",
+      "ctime": "2019-02-04T18:24:22.544Z",
+      "birthtime": "2019-02-04T17:38:57.715Z"
+    },
+    "74ee5dd1-e645-559f-a265-b576a743b6ae": {
+      "id": "74ee5dd1-e645-559f-a265-b576a743b6ae",
+      "children": [
+        "ae70f791-a9b9-5548-9eae-4fa8134e0300"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d772ad06c78644644ac12973243fa1f2",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/lessons/welcome/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/welcome/index.md",
+      "relativePath": "welcome/index.md",
+      "extension": "md",
+      "size": 139,
+      "prettySize": "139 B",
+      "modifiedTime": "2019-02-04T18:31:53.096Z",
+      "accessTime": "2019-02-04T18:37:20.387Z",
+      "changeTime": "2019-02-04T18:31:53.096Z",
+      "birthTime": "2019-02-04T17:38:57.715Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/welcome",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "welcome",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779518,
+      "blocks": 8,
+      "atimeMs": 1549305440387.059,
+      "mtimeMs": 1549305113096.334,
+      "ctimeMs": 1549305113096.334,
+      "birthtimeMs": 1549301937715.0208,
+      "atime": "2019-02-04T18:37:20.387Z",
+      "mtime": "2019-02-04T18:31:53.096Z",
+      "ctime": "2019-02-04T18:31:53.096Z",
+      "birthtime": "2019-02-04T17:38:57.715Z"
+    },
+    "ff0bfa8d-0122-5c4e-86e5-61813bbaff30": {
+      "id": "ff0bfa8d-0122-5c4e-86e5-61813bbaff30",
+      "children": [
+        "88741962-1bf2-54b5-9288-8e7355ee7208"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e53df1b94bb4420ed0d63159b0763116",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/lessons/intro-to-html/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-html/index.md",
+      "relativePath": "intro-to-html/index.md",
+      "extension": "md",
+      "size": 9405,
+      "prettySize": "9.4 kB",
+      "modifiedTime": "2019-02-04T17:56:33.835Z",
+      "accessTime": "2019-02-04T18:33:15.200Z",
+      "changeTime": "2019-02-04T17:56:33.835Z",
+      "birthTime": "2019-02-04T17:38:57.712Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-html",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "intro-to-html",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779515,
+      "blocks": 24,
+      "atimeMs": 1549305195200.3557,
+      "mtimeMs": 1549302993835.1162,
+      "ctimeMs": 1549302993835.1162,
+      "birthtimeMs": 1549301937712.064,
+      "atime": "2019-02-04T18:33:15.200Z",
+      "mtime": "2019-02-04T17:56:33.835Z",
+      "ctime": "2019-02-04T17:56:33.835Z",
+      "birthtime": "2019-02-04T17:38:57.712Z"
+    },
+    "e3e84cc2-17d8-596e-b261-4e1bd8f537d2": {
+      "id": "e3e84cc2-17d8-596e-b261-4e1bd8f537d2",
+      "children": [],
+      "parent": "df1cfc21-298c-56e7-9f9d-9b2b4cfb5a78",
+      "internal": {
+        "content": "## Let's style our page\n\nSo far, we created all of our content. But it looks a bit underwhelming. Let's add some colors and styles!\n\nCSS is short for Cascading Style Sheets. When you go to a web site and click around multiple pages, you want to have consistent styles. If every page that you made had to be individually styled it would be a lot of work. And any time you make one change, you'd have to go update all the other pages.\n\nBy separating our concerns: content from style we can keep all our style in one place and apply it to all our content.\n\nThe syntax for CSS is different than html.\n\nMost of if follows a simple pattern\n\n```css\nbody {\n  width: 50%;\n}\n```\n\nFirst, you write the `selector`, the `selector` can be the image tag itself, a `class` or `id` (attributes to identify tags) or it can be more complex.\n\nThen you put a space and then `curly braces` `{}` - they share the key with the `square brackets` `[]`, which are typically above the `return`/`enter key`.\n\n**GOTCHA** - you must always match an opening and a curly brace. Both HTML and CSS fail silently - you won't get an error message, but things just won't work. You'll have to hone your eye for detail as you build your skills.\n\nInside the curly braces `{}` you put keys and values.\n\nIn our html elements we did a similar thing with our attributes they had a `key` and a `value`\n\ne.g.\n\n```html\n<input type=\"text\" \\>\n```\n\nin this case, the attribute has a key of `type` and a value of `text`. The value is always wrapped in quotes.\n\nCSS follows the same pattern but the syntax is a little bit different\n\n```css\nbody {\n  width: 50%;\n}\n```\n\nIn this case we have a key of `width` and a value of `50%` they are separated by a colon `:` and the statement is ended by a semi-colon `;`\n\n\n## Let's Code!\n\nThe first thing we have to do is connect our css file to our `index.html` - if you are using codepen you're all set you just have to write your css inside the css panel.\n\nIn Atom\n\ninside our `index.html` inside the `head` tag, add a `link` element. We need two attributes\n- `rel` short for relationship. It defines how another file is related to our `html` file\n- then we need give the location of where our css file is. In our case, it is in the same folder, so it's really simple to point to it\n\n```html\n<link rel=\"stylesheet\" href=\"main.css\">\n```\n\nLet's go into our `css` file now and write our first rule\n\n```css\nbody {\n  background-color: plum;\n}\n```\n\nIf everything is connected and written properly the background color of our webpage should now be plum.\n\nFun fact! There are 140 named colors in html. You can go here to explore them\n\nhttps://htmlcolorcodes.com/color-names/\n\nUltimately, it was decided that naming colors would be too difficult and limiting and there are more modern ways to declare colors like `hex`, `rgba` and `hsla`. However, for code-alongs and learning these names come in really handy.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "69b8e2da34cf04012e84ad1350aa2e03",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Introduction to CSS",
+        "date": "2019-01-02T22:12:03.284Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "## Let's style our page\n\nSo far, we created all of our content. But it looks a bit underwhelming. Let's add some colors and styles!\n\nCSS is short for Cascading Style Sheets. When you go to a web site and click around multiple pages, you want to have consistent styles. If every page that you made had to be individually styled it would be a lot of work. And any time you make one change, you'd have to go update all the other pages.\n\nBy separating our concerns: content from style we can keep all our style in one place and apply it to all our content.\n\nThe syntax for CSS is different than html.\n\nMost of if follows a simple pattern\n\n```css\nbody {\n  width: 50%;\n}\n```\n\nFirst, you write the `selector`, the `selector` can be the image tag itself, a `class` or `id` (attributes to identify tags) or it can be more complex.\n\nThen you put a space and then `curly braces` `{}` - they share the key with the `square brackets` `[]`, which are typically above the `return`/`enter key`.\n\n**GOTCHA** - you must always match an opening and a curly brace. Both HTML and CSS fail silently - you won't get an error message, but things just won't work. You'll have to hone your eye for detail as you build your skills.\n\nInside the curly braces `{}` you put keys and values.\n\nIn our html elements we did a similar thing with our attributes they had a `key` and a `value`\n\ne.g.\n\n```html\n<input type=\"text\" \\>\n```\n\nin this case, the attribute has a key of `type` and a value of `text`. The value is always wrapped in quotes.\n\nCSS follows the same pattern but the syntax is a little bit different\n\n```css\nbody {\n  width: 50%;\n}\n```\n\nIn this case we have a key of `width` and a value of `50%` they are separated by a colon `:` and the statement is ended by a semi-colon `;`\n\n\n## Let's Code!\n\nThe first thing we have to do is connect our css file to our `index.html` - if you are using codepen you're all set you just have to write your css inside the css panel.\n\nIn Atom\n\ninside our `index.html` inside the `head` tag, add a `link` element. We need two attributes\n- `rel` short for relationship. It defines how another file is related to our `html` file\n- then we need give the location of where our css file is. In our case, it is in the same folder, so it's really simple to point to it\n\n```html\n<link rel=\"stylesheet\" href=\"main.css\">\n```\n\nLet's go into our `css` file now and write our first rule\n\n```css\nbody {\n  background-color: plum;\n}\n```\n\nIf everything is connected and written properly the background color of our webpage should now be plum.\n\nFun fact! There are 140 named colors in html. You can go here to explore them\n\nhttps://htmlcolorcodes.com/color-names/\n\nUltimately, it was decided that naming colors would be too difficult and limiting and there are more modern ways to declare colors like `hex`, `rgba` and `hsla`. However, for code-alongs and learning these names come in really handy.\n",
+      "fileAbsolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-css/index.md",
+      "fields": {
+        "slug": "/intro-to-css/"
+      }
+    },
+    "ae70f791-a9b9-5548-9eae-4fa8134e0300": {
+      "id": "ae70f791-a9b9-5548-9eae-4fa8134e0300",
+      "children": [],
+      "parent": "74ee5dd1-e645-559f-a265-b576a743b6ae",
+      "internal": {
+        "content": "\nWelcome! All our resources are listed here\n\n\n\n- [Sign up for CodePen](codepen.io)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2dca9ba82730624a94af725a89298181",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Welcome",
+        "date": "2018-12-28T22:40:32.169Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWelcome! All our resources are listed here\n\n\n\n- [Sign up for CodePen](codepen.io)\n",
+      "fileAbsolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/welcome/index.md",
+      "fields": {
+        "slug": "/welcome/"
+      }
+    },
+    "88741962-1bf2-54b5-9288-8e7355ee7208": {
+      "id": "88741962-1bf2-54b5-9288-8e7355ee7208",
+      "children": [],
+      "parent": "ff0bfa8d-0122-5c4e-86e5-61813bbaff30",
+      "internal": {
+        "content": "\n# Intro to Coding: HTML and CSS\n\n### Let's create our first web page\n\nLet's make a simple about me page:\n\n![](https://i.imgur.com/As0AkgM.png)\n\nEven though this is a simple page, we'll be covering a lot of concepts and using a lot of code.\n\nDon't worry about memorizing everything. Don't worry about understanding everything. The goal is to try to build this page together. As you build, you'll learn.\n\nEach time you set out to learn something, you'll learn the things you wanted to learn and learn new things you didn't expect and you'll start to understand things you tried to learn before but didn't quite get.\n\nIt's better to think of coding as a skill, like learning a musical instrument: practicing the same or similar things over and over again help you gain skills, get faster, become more graceful and better at achieving your vision. At first your attempts will be slow and you may get frustrated that you can't make things work like you want. This is normal! It doesn't indicate your ability to learn or become highly skilled at coding. The most important thing is to keep at it.\n\nAt General Assembly we believe in the growth mindset. You can google it to learn more or check out this great summary article:\n\nhttps://www.brainpickings.org/2014/01/29/carol-dweck-mindset/\n\n### Get started\n- Download\n- Open Atom\n- Choose new folder\n\n![](https://i.imgur.com/oZW803H.png)\n\n- name it `GA_html_css_workshop` or something similar that will help you identify what it is later\n\n- Inside this folder click to create a new file ![](https://i.imgur.com/KHVFcPx.png)\n  - this file should be named `index.html`\n  - make another new file and name this one `main.css`\n\n- Open both files in atom, you can click and drag a tab, it'll form a shadow and let you 'split' the panes so you can look at multiple files at the same time\n- It should look like this:\n\n![](https://i.imgur.com/rqNFNEI.png)\n\nAlternatively, you can use codepen: https://codepen.io/\nSign up for an account and then create a new pen\n\n![](https://i.imgur.com/2VT93hR.png)\n\nYou'll then get a similar view to that in `atom` - you have a space for your `html` and `css` code. Below, your code will render (show up) as you write it\n\n![](https://i.imgur.com/rqmr58Q.png)\n\n\nYou can use whichever editor you feel more comfortable using. With atom, you'll store your files locally on your computer, eventually you can put them on github. With codepen all your pens are stored in the cloud with your account.\n\n## Write Boilerplate HTML\n\nBoilerplate code is the bare minimum code required for ALL projects.\n\n- First we have to identify that our html document is the latest HTML, there have been a few versions and we want to be sure to let the browser know we want the latest!\n\nOn the top line of the `index.html` file, write:\n\n```html\n<!DOCTYPE html>\n```\n\nWe'll have to write a bit more code before we can see anything in our browser. Let's keep going\n\nNow we'll create the rest of the html and put all of our code inside these tags\n\n```html\n<html></html>\n```\n\nInside of our `html` tags, we'll include two tags: `head` and `body`\n\nDevelopers enjoy working smarter and not harder. One thing we can do with our text edtiors is use autocomplete\n\nLet's try it.\n\n- type `head` and then press tab - should make the opening and closing tags for you\n- below the head tag (not inside of it) type `body` and press tab\n\n\n```html\n<html>\n  <head>\n\n  </head>\n  <body>\n\n  </body>\n</html>\n```\n\nYou did it! This is the foundation of all html pages!\n\nIf you are using codepen, you can save this pen and start a new one or delete what we've written. Codepen builds these components for you, so you don't have to write them twice. When you use codepen, you can get started with all the content you want to appear in the `body`. If you need to adjust things for the head tag, you'd go into the `settings`.\n\nFor those of you using Atom, you can also get all this `boilerplate` code filled in for you by just typing `html` and pressing `tab`. **GOTCHA** the file extension MUST be `.html` in order for this to work.\n\n### Create Content\n\nWeb pages are made up of three parts\n- HTML which is the content (words and elements)\n- CSS which is what styles our content\n- JavaScript which provides interactivity/functionality. We won't have time to cover JavaScript today\n\nWhen we've finished creating our content, it will look like this:\n\n![](https://i.imgur.com/U7OKMgz.png)\n\nWe'll have\n- an image\n- an h1, h2 and h3 tags\n- a form that contains\n - an input field\n - a button\n\n#### An Aside About Images\n\nYou don't have to use a picture of me. You can use a photo of yourself or grumpy cat.\n\nWhen you google for images to use be sure to use the `tools` dropdown.\n\n![](https://i.imgur.com/4fiOnIr.png)\n\nWhen you are learning and practicing, you can use whatever images you want with little worry. These images should just be on your computer and just for you.\n\nIf you want to share your work with the world, or use images for a job you must be sure to make sure you have permission to use the images the way you want.\n\nGoogle can simplify finding images for you by using the tools dropdown. Alternatively, you can take your own pictures, hire a photographer or a designer.\n\n#### Let's Code\n\nWe'll be writing all of our code inside our `body` tags (on codepen you'll just write code in the panel, you are already inside the body tags)\n\nLet's start with an `h1`\n\n```html\n<body>\n  <h1>Karolin Rafalski</h1>\n</body>\n```\n\nWe can now open this `html` file in the browser\n\nMake sure you have selected your `index.html` file along the top you should see a chrome icon (or your preferred browser)\n\n![](https://i.imgur.com/EFnOgJl.png)\n\nYou can click and drag the icon into a browser and violia! It should open there!\n\nWhat success looks like:\n\n![](https://i.imgur.com/xYTx5Dt.png)\n\nNot only will you see the text you wrote in your file, you might also notice the browser URL is actually the location on your computer! (starts with `file:///`)\n\nLet's write some more code\n\n```html\n<h1>Karolin Rafalski</h1>\n<h2>Hi, I'm a Stamford-Based Web Developer</h2>\n<h3>Say hello!</h3>\n```\n\nIn order to see your changes, all you need to do is refresh the browser, you can push the refresh button or you can learn some more keyboard shortcuts by using `command r`\n\n![](https://i.imgur.com/glEzWzi.png)\n\nWe'll notice that our different tags appear differently.\n\nRemember `h` stands for headline. Headlines run from sizes 1 (the biggest) to 6 (the smallest). Initially the web was envisioned as a way to share scientific papers and other academic articles. So many elements are named in a way that would be useful for such purposes.\n\nWhen the web first came about, the focus was all content. Some default styles (like font size) were included. Later, appearance started becoming more and more important.\n\nThe web was envisioned as a way to connect people and it was meant to be accessible by everyone. All the code and design was made to be as user friendly as possible.\n\nWhen you build websites it's important to make sure you're making your HTML based on semantic naming - that will help screen readers properly interpret your content.\n\nIn the case of our simple page, there are no hard and fast rules to use `h` tags, but we'll do our best to go from most important down to more details.\n\n### Adding an image\n\nImage tags are a little different. They just show an image and have no actual content. Therefore they are referred to as `self closing tags`\n\n```html\n<img \\>\n```\nHow do we get our image to appear?\n\nWe have to give this tag a source attribute\n\n```html\n<img src=\"\" \\>\n```\n\nCopy and paste the url of your chosen image **INSIDE** the double quotes\n\n```html\n<img src=\"https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/11367/thumb_image2016-10-24_13-32-29.png\"\\>\n```\n\nWhen you refresh the page, you should now see the image.\n\nYou can have many attributes inside your html tag. When you make an image tag you should also include an `alternate text tag`:  `alt` - inside of this attribute you would include text describing the image, that way if the image is broken a user can still know what they should see, and a screen reader can read the description of the image.\n\nLet's try it:\n\n\n```html\n<img src=\"https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/11367/thumb_image2016-10-24_13-32-29.png\" alt=\"an image of Karolin\"\\>\n```\n\nThe text inside an alt attribute is visible when the image is broken:\n\n![](https://i.imgur.com/iaUO227.png)\n\n### Make a Form\n\nForms are a ubiquitous part of the web. Let's make one.\n\nBe sure to be below your `h3` tag\n\n```html\n<form>\n\n</form>\n```\n\nThen, let's put a text input and a button inside of this form.\n\n\n```html\n<form>\n  <input type=\"text\" \\>\n  <button type=\"button\" name=\"button\">Send Message</button>\n</form>\n```\n\nWe can include some placeholder text by adding an attribute called `placeholder` inside our text input\n\n```html\n  <input type=\"text\" placeholder=\"your message for me\" \\>\n```\n\nYou may be asking yourself, how can I remember all the html elements and attributes?\n\nJust google it!\n\nA lot of people like W3 Schools and MDN best for resources, but go ahead and explore more and find the resources you like best.\n\nYou can google questions like \"How do I add an image html\"  and you'll find many answers. The more you practice the faster you'll get!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a1f2a4fef773b6f61edd42f976375bb8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Introduction to HTML",
+        "date": "2019-01-01T22:12:03.284Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Intro to Coding: HTML and CSS\n\n### Let's create our first web page\n\nLet's make a simple about me page:\n\n![](https://i.imgur.com/As0AkgM.png)\n\nEven though this is a simple page, we'll be covering a lot of concepts and using a lot of code.\n\nDon't worry about memorizing everything. Don't worry about understanding everything. The goal is to try to build this page together. As you build, you'll learn.\n\nEach time you set out to learn something, you'll learn the things you wanted to learn and learn new things you didn't expect and you'll start to understand things you tried to learn before but didn't quite get.\n\nIt's better to think of coding as a skill, like learning a musical instrument: practicing the same or similar things over and over again help you gain skills, get faster, become more graceful and better at achieving your vision. At first your attempts will be slow and you may get frustrated that you can't make things work like you want. This is normal! It doesn't indicate your ability to learn or become highly skilled at coding. The most important thing is to keep at it.\n\nAt General Assembly we believe in the growth mindset. You can google it to learn more or check out this great summary article:\n\nhttps://www.brainpickings.org/2014/01/29/carol-dweck-mindset/\n\n### Get started\n- Download\n- Open Atom\n- Choose new folder\n\n![](https://i.imgur.com/oZW803H.png)\n\n- name it `GA_html_css_workshop` or something similar that will help you identify what it is later\n\n- Inside this folder click to create a new file ![](https://i.imgur.com/KHVFcPx.png)\n  - this file should be named `index.html`\n  - make another new file and name this one `main.css`\n\n- Open both files in atom, you can click and drag a tab, it'll form a shadow and let you 'split' the panes so you can look at multiple files at the same time\n- It should look like this:\n\n![](https://i.imgur.com/rqNFNEI.png)\n\nAlternatively, you can use codepen: https://codepen.io/\nSign up for an account and then create a new pen\n\n![](https://i.imgur.com/2VT93hR.png)\n\nYou'll then get a similar view to that in `atom` - you have a space for your `html` and `css` code. Below, your code will render (show up) as you write it\n\n![](https://i.imgur.com/rqmr58Q.png)\n\n\nYou can use whichever editor you feel more comfortable using. With atom, you'll store your files locally on your computer, eventually you can put them on github. With codepen all your pens are stored in the cloud with your account.\n\n## Write Boilerplate HTML\n\nBoilerplate code is the bare minimum code required for ALL projects.\n\n- First we have to identify that our html document is the latest HTML, there have been a few versions and we want to be sure to let the browser know we want the latest!\n\nOn the top line of the `index.html` file, write:\n\n```html\n<!DOCTYPE html>\n```\n\nWe'll have to write a bit more code before we can see anything in our browser. Let's keep going\n\nNow we'll create the rest of the html and put all of our code inside these tags\n\n```html\n<html></html>\n```\n\nInside of our `html` tags, we'll include two tags: `head` and `body`\n\nDevelopers enjoy working smarter and not harder. One thing we can do with our text edtiors is use autocomplete\n\nLet's try it.\n\n- type `head` and then press tab - should make the opening and closing tags for you\n- below the head tag (not inside of it) type `body` and press tab\n\n\n```html\n<html>\n  <head>\n\n  </head>\n  <body>\n\n  </body>\n</html>\n```\n\nYou did it! This is the foundation of all html pages!\n\nIf you are using codepen, you can save this pen and start a new one or delete what we've written. Codepen builds these components for you, so you don't have to write them twice. When you use codepen, you can get started with all the content you want to appear in the `body`. If you need to adjust things for the head tag, you'd go into the `settings`.\n\nFor those of you using Atom, you can also get all this `boilerplate` code filled in for you by just typing `html` and pressing `tab`. **GOTCHA** the file extension MUST be `.html` in order for this to work.\n\n### Create Content\n\nWeb pages are made up of three parts\n- HTML which is the content (words and elements)\n- CSS which is what styles our content\n- JavaScript which provides interactivity/functionality. We won't have time to cover JavaScript today\n\nWhen we've finished creating our content, it will look like this:\n\n![](https://i.imgur.com/U7OKMgz.png)\n\nWe'll have\n- an image\n- an h1, h2 and h3 tags\n- a form that contains\n - an input field\n - a button\n\n#### An Aside About Images\n\nYou don't have to use a picture of me. You can use a photo of yourself or grumpy cat.\n\nWhen you google for images to use be sure to use the `tools` dropdown.\n\n![](https://i.imgur.com/4fiOnIr.png)\n\nWhen you are learning and practicing, you can use whatever images you want with little worry. These images should just be on your computer and just for you.\n\nIf you want to share your work with the world, or use images for a job you must be sure to make sure you have permission to use the images the way you want.\n\nGoogle can simplify finding images for you by using the tools dropdown. Alternatively, you can take your own pictures, hire a photographer or a designer.\n\n#### Let's Code\n\nWe'll be writing all of our code inside our `body` tags (on codepen you'll just write code in the panel, you are already inside the body tags)\n\nLet's start with an `h1`\n\n```html\n<body>\n  <h1>Karolin Rafalski</h1>\n</body>\n```\n\nWe can now open this `html` file in the browser\n\nMake sure you have selected your `index.html` file along the top you should see a chrome icon (or your preferred browser)\n\n![](https://i.imgur.com/EFnOgJl.png)\n\nYou can click and drag the icon into a browser and violia! It should open there!\n\nWhat success looks like:\n\n![](https://i.imgur.com/xYTx5Dt.png)\n\nNot only will you see the text you wrote in your file, you might also notice the browser URL is actually the location on your computer! (starts with `file:///`)\n\nLet's write some more code\n\n```html\n<h1>Karolin Rafalski</h1>\n<h2>Hi, I'm a Stamford-Based Web Developer</h2>\n<h3>Say hello!</h3>\n```\n\nIn order to see your changes, all you need to do is refresh the browser, you can push the refresh button or you can learn some more keyboard shortcuts by using `command r`\n\n![](https://i.imgur.com/glEzWzi.png)\n\nWe'll notice that our different tags appear differently.\n\nRemember `h` stands for headline. Headlines run from sizes 1 (the biggest) to 6 (the smallest). Initially the web was envisioned as a way to share scientific papers and other academic articles. So many elements are named in a way that would be useful for such purposes.\n\nWhen the web first came about, the focus was all content. Some default styles (like font size) were included. Later, appearance started becoming more and more important.\n\nThe web was envisioned as a way to connect people and it was meant to be accessible by everyone. All the code and design was made to be as user friendly as possible.\n\nWhen you build websites it's important to make sure you're making your HTML based on semantic naming - that will help screen readers properly interpret your content.\n\nIn the case of our simple page, there are no hard and fast rules to use `h` tags, but we'll do our best to go from most important down to more details.\n\n### Adding an image\n\nImage tags are a little different. They just show an image and have no actual content. Therefore they are referred to as `self closing tags`\n\n```html\n<img \\>\n```\nHow do we get our image to appear?\n\nWe have to give this tag a source attribute\n\n```html\n<img src=\"\" \\>\n```\n\nCopy and paste the url of your chosen image **INSIDE** the double quotes\n\n```html\n<img src=\"https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/11367/thumb_image2016-10-24_13-32-29.png\"\\>\n```\n\nWhen you refresh the page, you should now see the image.\n\nYou can have many attributes inside your html tag. When you make an image tag you should also include an `alternate text tag`:  `alt` - inside of this attribute you would include text describing the image, that way if the image is broken a user can still know what they should see, and a screen reader can read the description of the image.\n\nLet's try it:\n\n\n```html\n<img src=\"https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/11367/thumb_image2016-10-24_13-32-29.png\" alt=\"an image of Karolin\"\\>\n```\n\nThe text inside an alt attribute is visible when the image is broken:\n\n![](https://i.imgur.com/iaUO227.png)\n\n### Make a Form\n\nForms are a ubiquitous part of the web. Let's make one.\n\nBe sure to be below your `h3` tag\n\n```html\n<form>\n\n</form>\n```\n\nThen, let's put a text input and a button inside of this form.\n\n\n```html\n<form>\n  <input type=\"text\" \\>\n  <button type=\"button\" name=\"button\">Send Message</button>\n</form>\n```\n\nWe can include some placeholder text by adding an attribute called `placeholder` inside our text input\n\n```html\n  <input type=\"text\" placeholder=\"your message for me\" \\>\n```\n\nYou may be asking yourself, how can I remember all the html elements and attributes?\n\nJust google it!\n\nA lot of people like W3 Schools and MDN best for resources, but go ahead and explore more and find the resources you like best.\n\nYou can google questions like \"How do I add an image html\"  and you'll find many answers. The more you practice the faster you'll get!\n",
+      "fileAbsolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/lessons/intro-to-html/index.md",
+      "fields": {
+        "slug": "/intro-to-html/"
+      }
+    },
+    "f883cb85-9016-53d2-9133-f71d326c9ead": {
+      "id": "f883cb85-9016-53d2-9133-f71d326c9ead",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bb9bebd8f47f6d7d6572bc678d1c9c2b",
+        "type": "Directory",
+        "description": "Directory \"content/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-02-04T18:35:29.496Z",
+      "accessTime": "2019-02-04T18:37:29.139Z",
+      "changeTime": "2019-02-04T18:35:29.496Z",
+      "birthTime": "2019-02-04T17:38:57.711Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779510,
+      "blocks": 0,
+      "atimeMs": 1549305449139.2336,
+      "mtimeMs": 1549305329495.714,
+      "ctimeMs": 1549305329495.714,
+      "birthtimeMs": 1549301937711.013,
+      "atime": "2019-02-04T18:37:29.139Z",
+      "mtime": "2019-02-04T18:35:29.496Z",
+      "ctime": "2019-02-04T18:35:29.496Z",
+      "birthtime": "2019-02-04T17:38:57.711Z"
+    },
+    "548da2ab-8dfa-5a76-b937-e008b68a3a1d": {
+      "id": "548da2ab-8dfa-5a76-b937-e008b68a3a1d",
+      "children": [
+        "e234386d-ff79-5d5b-be11-30406895bc6d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "11ac6681e1f69fb07df174cc4e37e43c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/thumb_GA_Cog_Large_Red_RGB.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets/thumb_GA_Cog_Large_Red_RGB.png",
+      "relativePath": "thumb_GA_Cog_Large_Red_RGB.png",
+      "extension": "png",
+      "size": 10924,
+      "prettySize": "10.9 kB",
+      "modifiedTime": "2019-02-04T18:35:21.590Z",
+      "accessTime": "2019-02-04T18:35:31.191Z",
+      "changeTime": "2019-02-04T18:35:29.496Z",
+      "birthTime": "2019-02-04T18:35:21.590Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+      "base": "thumb_GA_Cog_Large_Red_RGB.png",
+      "ext": ".png",
+      "name": "thumb_GA_Cog_Large_Red_RGB",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618818415,
+      "blocks": 24,
+      "atimeMs": 1549305331191.1226,
+      "mtimeMs": 1549305321589.8862,
+      "ctimeMs": 1549305329495.7139,
+      "birthtimeMs": 1549305321589.7087,
+      "atime": "2019-02-04T18:35:31.191Z",
+      "mtime": "2019-02-04T18:35:21.590Z",
+      "ctime": "2019-02-04T18:35:29.496Z",
+      "birthtime": "2019-02-04T18:35:21.590Z"
+    },
+    "daf4cb86-a245-546a-ae4b-84a3ba886490": {
+      "id": "daf4cb86-a245-546a-ae4b-84a3ba886490",
+      "children": [
+        "6ddb1120-918f-5bd8-984e-10208bb1add8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/assets/profile-pic.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets/profile-pic.jpg",
+      "relativePath": "profile-pic.jpg",
+      "extension": "jpg",
+      "size": 21714,
+      "prettySize": "21.7 kB",
+      "modifiedTime": "2019-02-04T17:38:57.712Z",
+      "accessTime": "2019-02-04T18:35:29.502Z",
+      "changeTime": "2019-02-04T17:38:57.712Z",
+      "birthTime": "2019-02-04T17:38:57.711Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+      "base": "profile-pic.jpg",
+      "ext": ".jpg",
+      "name": "profile-pic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779512,
+      "blocks": 48,
+      "atimeMs": 1549305329501.8257,
+      "mtimeMs": 1549301937711.6555,
+      "ctimeMs": 1549301937711.6555,
+      "birthtimeMs": 1549301937711.4744,
+      "atime": "2019-02-04T18:35:29.502Z",
+      "mtime": "2019-02-04T17:38:57.712Z",
+      "ctime": "2019-02-04T17:38:57.712Z",
+      "birthtime": "2019-02-04T17:38:57.711Z"
+    },
+    "b17791ac-7209-5216-bd39-8c9e7ed59cc3": {
+      "id": "b17791ac-7209-5216-bd39-8c9e7ed59cc3",
+      "children": [
+        "35f0c511-fd8d-5a71-ab4b-0fe60d4ae865"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-02-04T17:38:57.711Z",
+      "accessTime": "2019-02-04T18:35:29.502Z",
+      "changeTime": "2019-02-04T17:38:57.711Z",
+      "birthTime": "2019-02-04T17:38:57.711Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618779511,
+      "blocks": 48,
+      "atimeMs": 1549305329501.6343,
+      "mtimeMs": 1549301937711.3147,
+      "ctimeMs": 1549301937711.3147,
+      "birthtimeMs": 1549301937711.0967,
+      "atime": "2019-02-04T18:35:29.502Z",
+      "mtime": "2019-02-04T17:38:57.711Z",
+      "ctime": "2019-02-04T17:38:57.711Z",
+      "birthtime": "2019-02-04T17:38:57.711Z"
+    },
+    "405848bc-5fd3-5287-80c3-e21cd3a61810": {
+      "id": "405848bc-5fd3-5287-80c3-e21cd3a61810",
+      "children": [
+        "bffcd268-3225-5bb2-9972-3a09cec438af"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "38aa1efd001c21c26905a323b10bb64f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/profile-pic.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets/profile-pic.png",
+      "relativePath": "profile-pic.png",
+      "extension": "png",
+      "size": 74212,
+      "prettySize": "74.2 kB",
+      "modifiedTime": "2019-02-04T18:26:50.188Z",
+      "accessTime": "2019-02-04T18:35:29.502Z",
+      "changeTime": "2019-02-04T18:27:50.756Z",
+      "birthTime": "2019-02-04T18:26:50.188Z",
+      "root": "/",
+      "dir": "/Users/karolinrafalski/dev/stamford/html_css_ws2/content/assets",
+      "base": "profile-pic.png",
+      "ext": ".png",
+      "name": "profile-pic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8618817361,
+      "blocks": 152,
+      "atimeMs": 1549305329501.9092,
+      "mtimeMs": 1549304810188.4534,
+      "ctimeMs": 1549304870756.452,
+      "birthtimeMs": 1549304810187.683,
+      "atime": "2019-02-04T18:35:29.502Z",
+      "mtime": "2019-02-04T18:26:50.188Z",
+      "ctime": "2019-02-04T18:27:50.756Z",
+      "birthtime": "2019-02-04T18:26:50.188Z"
+    },
+    "e234386d-ff79-5d5b-be11-30406895bc6d": {
+      "id": "e234386d-ff79-5d5b-be11-30406895bc6d",
+      "children": [],
+      "parent": "548da2ab-8dfa-5a76-b937-e008b68a3a1d",
+      "internal": {
+        "contentDigest": "11ac6681e1f69fb07df174cc4e37e43c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6ddb1120-918f-5bd8-984e-10208bb1add8": {
+      "id": "6ddb1120-918f-5bd8-984e-10208bb1add8",
+      "children": [],
+      "parent": "daf4cb86-a245-546a-ae4b-84a3ba886490",
+      "internal": {
+        "contentDigest": "4f27694bd7811d13157e5e488ad64f43",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "35f0c511-fd8d-5a71-ab4b-0fe60d4ae865": {
+      "id": "35f0c511-fd8d-5a71-ab4b-0fe60d4ae865",
+      "children": [],
+      "parent": "b17791ac-7209-5216-bd39-8c9e7ed59cc3",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "bffcd268-3225-5bb2-9972-3a09cec438af": {
+      "id": "bffcd268-3225-5bb2-9972-3a09cec438af",
+      "children": [],
+      "parent": "405848bc-5fd3-5287-80c3-e21cd3a61810",
+      "internal": {
+        "contentDigest": "38aa1efd001c21c26905a323b10bb64f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /intro-to-css/": {
+      "jsonName": "intro-to-css-188",
+      "internalComponentName": "ComponentIntroToCss",
+      "path": "/intro-to-css/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/intro-to-css/",
+        "previous": {
+          "fields": {
+            "slug": "/intro-to-html/"
+          },
+          "frontmatter": {
+            "title": "Introduction to HTML"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "id": "SitePage /intro-to-css/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0daa40369d4b02e3815c44965aab1f51",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /intro-to-html/": {
+      "jsonName": "intro-to-html-0a5",
+      "internalComponentName": "ComponentIntroToHtml",
+      "path": "/intro-to-html/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/intro-to-html/",
+        "previous": {
+          "fields": {
+            "slug": "/welcome/"
+          },
+          "frontmatter": {
+            "title": "Welcome"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/intro-to-css/"
+          },
+          "frontmatter": {
+            "title": "Introduction to CSS"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "id": "SitePage /intro-to-html/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a5449c619ec5b2ced998d4e4e18ddba7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /welcome/": {
+      "jsonName": "welcome-e45",
+      "internalComponentName": "ComponentWelcome",
+      "path": "/welcome/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/welcome/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/intro-to-html/"
+          },
+          "frontmatter": {
+            "title": "Introduction to HTML"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js",
+      "id": "SitePage /welcome/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "840b73f78f2f59cb9099591bc794748a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "80ca9d83-1fff-5530-b153-e8cca43987db",
+      "pluginCreatorId": "80ca9d83-1fff-5530-b153-e8cca43987db",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "53ffac2daac1ee5796e25dbd810d4e18",
+        "description": "80ca9d83-1fff-5530-b153-e8cca43987db",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "80ca9d83-1fff-5530-b153-e8cca43987db",
+      "pluginCreatorId": "80ca9d83-1fff-5530-b153-e8cca43987db",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "39f8bcaf684c43e00edf0a2e9d028de8",
+        "description": "80ca9d83-1fff-5530-b153-e8cca43987db",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "898400e298038cc16651fc2b4892e7c8",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "ac0d34f947761137fdd9b05d9fa75736"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-bio-js",
+        "sq--src-components-seo-js",
+        "/",
+        "/404/",
+        "/404.html",
+        "/intro-to-css/",
+        "/intro-to-html/",
+        "/welcome/"
+      ],
+      "405848bc-5fd3-5287-80c3-e21cd3a61810": [
+        "sq--src-components-bio-js"
+      ],
+      "bffcd268-3225-5bb2-9972-3a09cec438af": [
+        "sq--src-components-bio-js"
+      ],
+      "e3e84cc2-17d8-596e-b261-4e1bd8f537d2": [
+        "/intro-to-css/"
+      ],
+      "88741962-1bf2-54b5-9288-8e7355ee7208": [
+        "/intro-to-html/"
+      ],
+      "ae70f791-a9b9-5548-9eae-4fa8134e0300": [
+        "/welcome/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-js": 1025518380,
+    "404-22d": "184/path---404-22-d-bce-pSL4ys2DPaZMXgKP9zO7y3RaaI",
+    "404-html-516": "401/path---404-html-516-62a-pSL4ys2DPaZMXgKP9zO7y3RaaI",
+    "index": "967/path---index-6a9-ak0J8UEqSL94cYaOsMRUB4dZAc0",
+    "sq--src-components-bio-js": 2598425350,
+    "intro-to-css-188": "120/path---intro-to-css-188-0e8-Ojbaiz6pKLmttPG7HlpWWnsfwY",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "welcome-e45": "287/path---welcome-e-45-1b7-ejLHUOJP1OIa2izJOJ0hEzJ7mw",
+    "intro-to-html-0a5": "539/path---intro-to-html-0-a-5-224-5YMWcZtxAuWCrbLW7aDh5rWO0"
+  },
+  "components": {
+    "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/templates/blog-post.js"
+    },
+    "/Users/karolinrafalski/dev/stamford/html_css_ws2/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/.cache/dev-404-page.js"
+    },
+    "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js": {
+      "query": "query usersKarolinrafalskiDevStamfordHtmlCssWs2SrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/404.js"
+    },
+    "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/index.js": {
+      "query": "query usersKarolinrafalskiDevStamfordHtmlCssWs2SrcPagesIndexJs2715961300 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-bio-js": {
+      "name": "BioQuery",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/components/Bio.js",
+      "id": "sq--src-components-bio-js",
+      "jsonName": "sq--src-components-bio-js",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/profile-pic.png/\"}) {\n    childImageSharp {\n      fixed(width: 50, height: 50) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      social {\n        twitter\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 2598425350
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/karolinrafalski/dev/stamford/html_css_ws2/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
